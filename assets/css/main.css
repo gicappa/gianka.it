@@ -1,0 +1,106 @@
+body {
+  background-color: #f2f2f2;
+    font-family: 'Open Sans', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(50, 50, 50, 1);
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*.container.header {
+  background-color: rgba(0, 0, 0, 0.7);
+}*/
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(50, 50, 50, 1);
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+p em {
+  color: #FFD700;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #ff2200;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #ffaa00;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+.w {
+	margin-top: 60px;
+}
+.w i {
+	font-size: 36px;
+	padding: 12px;
+}
+
+.logo, .logo img {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+	width: 120px;
+	height: 120px;
+	-webkit-border-radius: 60px; /* Saf3+, Chrome */
+	border-radius: 60px; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 60px;  Disabled for FF1+ */
+}
