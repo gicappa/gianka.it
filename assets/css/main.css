@@ -1,18 +1,18 @@
 body {
   background-color: #000;
-    font-family: 'Open Sans', serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #fff;
-    text-shadow: 1px 1px 1px rgba(50, 50, 50, 1);
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 1);
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
-/*.container.header {
+.header {
   background-color: rgba(0, 0, 0, 0.7);
-}*/
+}
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +42,7 @@ p em {
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 /* Links */
@@ -59,7 +59,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #ffaa00;
+    color: #FFD700;
     text-decoration: none;
     outline: 0;
 }
@@ -95,12 +95,12 @@ h1 {
 }
 
 .logo, .logo img {
-  margin-top: 25px;
+  margin-top  : 10px;
   margin-left: auto;
   margin-right: auto;
-	width: 120px;
-	height: 120px;
-	-webkit-border-radius: 60px; /* Saf3+, Chrome */
-	border-radius: 60px; /* Opera 10.5, IE 9 */
-	/*-moz-border-radius: 60px;  Disabled for FF1+ */
+	width: 80px;
+	height: 80px;
+	-webkit-border-radius: 40px; /* Saf3+, Chrome */
+	border-radius: 40px; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 40px;  Disabled for FF1+ */
 }
